@@ -4,8 +4,18 @@ def collect_and_print_sum(scores):
     for score in scores:
 	    add_scores += score;
     return add_scores
+
+def collect_and_print_average(scores):
+    add_scores = 0
+    average = 0
+    for score in scores:
+	    add_scores += score;
+    average = (add_scores // len(scores))
+    return average
+
+
 student_scores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(collect_and_print_sum(student_scores))
+print(collect_and_print_average(student_scores))
 
 
 #scores = []
