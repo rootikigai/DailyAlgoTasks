@@ -10,7 +10,7 @@ def collect_and_print_average(scores):
     average = 0
     for score in scores:
 	    add_scores += score;
-    average = (add_scores // len(scores))
+    average = (add_scores / len(scores))
     return average
 
 
