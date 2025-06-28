@@ -7,8 +7,18 @@ function CollectAndPrintSum(scores){
     }
     return addScores
 }
+
+function CollectAndPrintAverage(scores){
+    let addScores = 0;
+    let average = 0
+    for(let i = 0; i < scores.length; i++){
+	    addScores += scores[i];
+        average = (addScores / scores.length)
+    }
+    return average
+}
 let studentScores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-console.log(CollectAndPrintSum(studentScores))
+console.log(CollectAndPrintAverage(studentScores))
 
 
 /*
