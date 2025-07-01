@@ -17,8 +17,15 @@ function CollectAndPrintAverage(scores){
     }
     return average
 }
-let studentScores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-console.log(CollectAndPrintAverage(studentScores))
+
+function DivisibleByFive(number){
+    if(number % 5 == 0){
+      return number * number;
+    }
+    return number % 5;
+}
+
+console.log(DivisibleByFive(22))
 
 
 /*
