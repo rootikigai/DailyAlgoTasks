@@ -13,9 +13,12 @@ def collect_and_print_average(scores):
     average = (add_scores / len(scores))
     return average
 
+def divisibleByFive(number):
+    if number % 5 == 0:
+        return number * number
+    return number % 5
 
-student_scores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(collect_and_print_average(student_scores))
+print(divisibleByFive(32))
 
 
 #scores = []
