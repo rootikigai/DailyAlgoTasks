@@ -1,27 +1,41 @@
-import java.util.Scanner;
 public class AllDailyAlgoTasks{
   public static int collectAndPrintSum(int[] scores){
     int addScores = 0;
-    for(int i = 0; i < scores.length; i++){
-	    addScores += scores[i];
-    }
+      for (int score : scores) {
+          addScores += score;
+      }
     return addScores;
   }
   public static int collectAndPrintAverage(int[] scores){
     int addScores = 0;
     int average = 0;
-    for(int i = 0; i < scores.length; i++){
-	    addScores += scores[i];
-      average = (addScores / scores.length);
-    }
+      for (int score : scores) {
+          addScores += score;
+          average = (addScores / scores.length);
+      }
     return average;
   }
-
-	public static void main(String[] args){
-    int[] testScores = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int result = collectAndPrintAverage(testScores);
+  public static int collectAndPrintSumAndAverage(int[] scores){
+      int addScores = collectAndPrintSum(scores);
+      int average = 0;
+      for (int score : scores) {
+          addScores += score;
+          average = (addScores / scores.length);
+      }
+    return addScores;
+  }
+	public static int divisibleByFive(int number){
+		if(number % 5 == 0){
+      return number * number;
+    }
+    return number % 5;
+	}
+  public static void main(String[] args){
+    int result = AllDailyAlgoTasks.divisibleByFive(5);
     System.out.println(result);
-	  /*collect and print sum
+  }
+}
+/*collect and print sum
     Scanner input = new Scanner(System.in);
 		int[] scores = new int[10];
 		int sum = 0;
@@ -31,5 +45,3 @@ public class AllDailyAlgoTasks{
 			sum += scores[i];
 		}
     System.out.println("Sum is " + sum);*/
-	}
-}
