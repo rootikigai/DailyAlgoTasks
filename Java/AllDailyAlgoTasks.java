@@ -86,8 +86,8 @@ public class AllDailyAlgoTasks{
               if(i == 1 || j == 1 || i == 10 || j == 10){
                   System.out.print("* ");
               }
-              else if(j == 1 || j == 10) {
-                  System.out.print("* ");
+              else if(j == 5){
+                  System.out.print("OK");
               }
               else{
                   System.out.print(" "+" ");
