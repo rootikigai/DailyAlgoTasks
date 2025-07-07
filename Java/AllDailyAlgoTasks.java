@@ -72,6 +72,13 @@ public class AllDailyAlgoTasks{
       for(int i = 1; i <= 10; i++){
           System.out.print((i * 3) + " ");
       }
+      System.out.println();
+    //Print all numbers divisible by 5 between 1 and 100
+      for(int i = 1; i <= 100; i++){
+          if(i % 5 == 0){
+              System.out.print(i + " ");
+          }
+      }
   }
 }
 
