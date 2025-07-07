@@ -69,6 +69,9 @@ public class AllDailyAlgoTasks{
       }
       System.out.println();
     //Print first 10 multiples of 3
+      for(int i = 1; i <= 10; i++){
+          System.out.print((i * 3) + " ");
+      }
   }
 }
 
