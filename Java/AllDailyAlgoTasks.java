@@ -55,6 +55,13 @@ public class AllDailyAlgoTasks{
       for(int i = 50; i <= 100; i++){
           System.out.print(i + " ");
       }
+      System.out.println();
+    //Print all odd numbers between 1 and 30
+      for(int i = 1; i <= 30; i++){
+          if(i % 2 != 0){
+              System.out.print(i + " ");
+          }
+      }
   }
 }
 
