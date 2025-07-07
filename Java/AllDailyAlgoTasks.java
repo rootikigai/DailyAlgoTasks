@@ -1,3 +1,6 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class AllDailyAlgoTasks{
   public static int collectAndPrintSum(int[] scores){
     int addScores = 0;
@@ -95,6 +98,12 @@ public class AllDailyAlgoTasks{
           }
           System.out.println();
       }
+      System.out.println();
+    //Print a welcome message with the current date
+      LocalDateTime currentTime = LocalDateTime.now();
+      DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+      String currentDate = dtf.format(currentTime);
+      System.out.println("Happy Birthday Mrs. Glory Lawrence-Ifeanyi on " + currentDate);
   }
 }
 
