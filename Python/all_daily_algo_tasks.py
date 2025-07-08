@@ -24,3 +24,10 @@ def divisible_by_five(number):
 for num in range (1, 11, 1):
     print(num, end= " ")
 
+print()
+
+#Print even numbers from 1 to 10
+for num in range (1, 11, 1):
+    if num % 2 == 0:
+        print(num, end= " ")
+
