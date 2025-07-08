@@ -31,3 +31,10 @@ for num in range (1, 11, 1):
     if num % 2 == 0:
         print(num, end= " ")
 
+print()
+
+#Print your name 5 times
+for num in range (0, 5, 1):
+    print("Kelvin Ifeanyi")
+
+print()
