@@ -38,3 +38,7 @@ for num in range (0, 5, 1):
     print("Kelvin Ifeanyi")
 
 print()
+
+#Print all numbers from 50 to 100
+for num in range(50, 101, 1):
+    print(num, end= " ")
