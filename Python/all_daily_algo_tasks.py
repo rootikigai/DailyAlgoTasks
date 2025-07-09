@@ -68,3 +68,10 @@ while count < 11:
     num = num+1
 
 print()
+
+#Print all numbers divisible by 5 between 1 and 100
+for num in range (1, 101, 1):
+    if num % 5 == 0:
+        print(num, end= " ")
+
+print()
