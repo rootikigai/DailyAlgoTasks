@@ -55,3 +55,16 @@ print()
 #Print numbers in reverse from 10 to 1
 for num in range (10, 0, -1):
     print(num, end= " ")
+
+print()
+
+#Print first 10 multiples of 3
+count = 1
+num = 3
+while count < 11:
+    if num % 3 == 0:
+        print(num, end= " ")
+        count += 1
+    num = num+1
+
+print()
