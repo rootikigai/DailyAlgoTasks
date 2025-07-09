@@ -47,3 +47,19 @@ for(let i = 0; i < 5; i++){
 }
 
 console.log()
+
+// Print all numbers from 50 to 100
+for(let i = 50; i <= 100; i++){
+    console.log(i + (end = " "))
+}
+
+console.log()
+
+// Print all odd numbers between 1 and 30
+for(let i = 1; i <= 30; i++){
+    if(i % 2 != 0){
+        console.log(i)
+    }
+}
+
+console.log()
