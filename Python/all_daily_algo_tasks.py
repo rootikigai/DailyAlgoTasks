@@ -1,4 +1,9 @@
 #Collect and print sum
+from datetime import date
+
+from dateutil.utils import datetime
+
+
 def collect_and_print_sum(scores):
     add_scores = 0
     for score in scores:
@@ -86,3 +91,9 @@ for row in range(1, 11, 1):
         else:
             print(" " + " ", end= " ")
     print()
+
+print()
+
+#today = date.today()
+#print(today)
+print(f"Happy birthday Mrs. Glory Lawrence on ", date.today())
