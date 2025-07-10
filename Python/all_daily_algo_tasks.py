@@ -75,3 +75,14 @@ for num in range (1, 101, 1):
         print(num, end= " ")
 
 print()
+
+#Print a message inside a box made of stars
+for row in range(1, 11, 1):
+    for col in range(1, 11, 1):
+        if row == 1 or row == 10 or col == 1 or col == 10:
+            print("* ", end= " ")
+        elif row == 5 and col == 5:
+            print("OK", end= " ")
+        else:
+            print(" " + " ", end= " ")
+    print()
