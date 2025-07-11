@@ -101,3 +101,7 @@ for(let i = 1; i <= 10; i++){
 }
 
 console.log();
+
+currentDate = Date
+console.log(currentDate)
+console.log("Happy birthday Mrs. Glory Lawrence-Ifeanyi on " )
