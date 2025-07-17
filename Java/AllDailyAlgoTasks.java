@@ -99,7 +99,7 @@ public class AllDailyAlgoTasks{
           System.out.println();
       }
       System.out.println();
-    //Print a welcome message with the current date
+    //Print a message with the current date
       LocalDateTime currentTime = LocalDateTime.now();
       DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
       String currentDate = dtf.format(currentTime);
