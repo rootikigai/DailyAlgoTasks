@@ -1,3 +1,4 @@
+/*
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -106,4 +107,27 @@ public class AllDailyAlgoTasks{
       System.out.println("Happy Birthday Mrs. Glory Lawrence-Ifeanyi on " + currentDate);
   }
 }
+*/
+
+//Write a function that takes in two args, an array and a number.
+//Return an array that is the result of each number in the array
+//multiplied by the number which is the second argument.
+
+import java.util.Arrays;
+
+public class AllDailyAlgoTasks {
+    public static int [] multiplex(int[] nums, int number){
+        int[] result = new int[nums.length];
+        for(int index = 0; index < nums.length; index++){
+            result[index] = nums[index] * number;
+        }
+        return result;
+    }
+    public static void main(String[] args) {
+        int[] nums = {2,3,4,7,10};
+        int number = 2;
+        System.out.println(Arrays.toString(multiplex(nums, number)));
+    }
+}
+
 
